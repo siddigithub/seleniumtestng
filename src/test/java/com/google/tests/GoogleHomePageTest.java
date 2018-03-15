@@ -12,7 +12,7 @@ public class GoogleHomePageTest {
 
 	@BeforeClass
 	public void beforeTest() {
-		System.setProperty("webdriver.gecko.driver", "//Users//usachary//Downloads//geckodriver");
+		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "//geckodriver");
 		driver = new FirefoxDriver();
 	}
 
