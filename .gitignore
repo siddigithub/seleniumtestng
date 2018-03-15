@@ -15,4 +15,5 @@ hs_err_pid*
 *iml
 *.idea
 /target
+/test-output
 .DS_Store
